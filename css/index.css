@@ -9,7 +9,7 @@ canvas
 }
 body
 {
-    background: url(/img/Background.png);
+    background: url('../img/Background.png');
     background-size: 100px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -120,53 +120,3 @@ big
 {
     font-size:x-large;
 }
-/*
-body
-{
-    margin: 0px;
-}
-.abilities-module
-{
-    max-width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.abilities-module > img
-{
-    padding: 10px;
-    width: 100px;
-    transition: 0.1s ease-in-out all;
-}
-.abilities-module > img:hover
-{
-    filter: drop-shadow(5px 5px 0 pink);
-    transform: scale(1.1);
-}
-.title-module
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding:  5px 0px 5px 0px;
-    width: 300px;
-    border-radius: 0px 10px 0px 10px;
-    display: block;
-    
-    text-align: center;
-    background-color:cornflowerblue;
-    color: white;
-    transition: border-radius 0.3s;
-    background: url(https://1.bp.blogspot.com/-cNFdtozkuwY/U1CdTgblmVI/AAAAAAAABKM/yyGv2dHIrXE/s1600/GIF_SkyClear.gif);
-}
-.title-module:hover
-{
-    cursor: pointer;
-    border-radius: 50px;
-}
-.text-module
-{
-    font-size:large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-*/
