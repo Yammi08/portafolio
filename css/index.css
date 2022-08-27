@@ -1,11 +1,7 @@
 header
 {
     display: flex;
-    
-    background: linear-gradient(to top, #a06389, #cb7ca2 100%);
     height: 50px;
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.5);
 }
 canvas
 {
@@ -26,13 +22,12 @@ main
 ul li a
 {
     
-    color: #ffecb2;
+    color: #fffcf1;
     font-size: x-large;
     text-align: center;
 }
 ul li a:hover
 {
-    color: #fffcf1;
     text-decoration: none;
 }
 ul
@@ -44,6 +39,16 @@ li
 {
     display: block;
     margin: 10px auto;
+}
+big
+{
+    font-size:xx-large;
+}
+.box-style
+{
+    background: linear-gradient(to top, #a06389, #cb7ca2 100%);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.5);
 }
 .links-nav
 {
@@ -58,7 +63,7 @@ li
 }
 .header-center
 {
-    background-color: #ffecb2;
+    background-color: #fffcf1;
     border-radius: 100%;
     padding: 5px;
     margin: auto;
@@ -72,11 +77,12 @@ li
 .about
 {
     width: 450px;
+    
 }
 .div-content
 {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 30px;
     border-radius: 10px;
     background-color: #cb7ca2;
@@ -92,7 +98,7 @@ li
 }
 .project
 {
-    background-color: #a06389;
+    background:linear-gradient(to top,#a0638900 ,#a06389 100%);
     border-radius: 30px;
     width: 350px;
     height: 350px;
@@ -110,7 +116,10 @@ li
 {
     text-align: center;
 }
-
+.project-tittle
+{
+    font-size:x-large;
+}
 /*
 body
 {

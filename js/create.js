@@ -11,4 +11,4 @@ function create(id,tittle,image,altname,link,minDescription)
     let text = document.getElementById(id);
     text.innerHTML += result;
 }
-/*create('articles-section','Esto es un articulo','/img/encrypt.png','imagen','','Esto es una min descripcion dsasdaasd dsa s d a a d s a sddas');*/
+//create('articles-section','Esto es un articulo','/img/encrypt.png','imagen','','Esto es una min descripcion dsasdaasd dsa s d a a d s a sddas');
