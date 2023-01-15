@@ -1,0 +1,11 @@
+.icon__skills
+{
+    height: 90px;
+}
+.container__skills
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

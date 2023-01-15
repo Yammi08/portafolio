@@ -1,0 +1,20 @@
+.container__main
+{
+    background-color: rgba(58, 58, 58, 0.4);
+    color: azure;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+.main__title
+{
+    font-size:xx-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.main__split
+{
+    border-image: linear-gradient(to right,rgba(240, 255, 255, 0.1) ,rgba(240, 255, 255, 0.3) ,rgba(240, 255, 255, 0.3), rgba(240, 255, 255, 0.1)) 1;
+}
