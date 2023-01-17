@@ -1,0 +1,23 @@
+
+.icon__twitter
+{
+    background: url('../img/contact-me/icons8-twitter-120.png');
+}
+.icon__github
+{
+    background: url('../img/contact-me/github-mark.png');
+}
+.icon__gmail
+{
+    background: url('../img/contact-me/email.png');
+}
+.icon
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
