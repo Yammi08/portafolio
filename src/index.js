@@ -17,7 +17,7 @@ app.set('views',path.join(__dirname,'./public/views'));
 app.set('view engine', 'ejs');
 app.engine('ejs',ejs.renderFile);
 
-app.use(expressLayouts)
+app.use(expressLayouts);
 app.set('layout','index.ejs')
 //front-end
 app.use(express.static(path.join(__dirname,'./public')));
@@ -26,7 +26,7 @@ const routes = fs.readdirSync(path.join(__dirname,'./routes'));
 routes.forEach(element=>{
     const result = require(path.join(__dirname,'./routes',element));
     app.use(result);
-})
+});
 
 app.listen(process.env.PORT,()=>
 {
