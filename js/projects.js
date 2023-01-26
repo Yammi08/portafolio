@@ -1,12 +1,6 @@
 var projects = ()=>
 {
     const projects = [
-        {
-            title: 'carlos estratega',
-            imageHerf:'',
-            image:'',
-            imageAlt:'aasas'
-        }
     ];
     const project = ({title,imageHerf,image,imageAlt})=>
     {
