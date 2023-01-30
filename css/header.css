@@ -29,6 +29,7 @@
 {
     font-family: 'Lobster', cursive;
     font-size: larger;
+    
 }
 .container__name-div
 {
@@ -50,6 +51,7 @@
     height: 100%;
     line-height: 2.3;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .header__button:hover
@@ -60,4 +62,31 @@
 .about-me-tag
 {
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px){
+    .header__name
+    {
+        font-size: xx-large;
+    }
+    .header
+    {
+        height: auto;
+        justify-content: space-evenly;
+    }
+    .container__information, .header
+    {
+        flex-direction: column;
+        /*display: none;*/
+    }
+    .container__information-div
+    {
+        width: 100%;
+    }
+    .header__button
+    {
+        width: 100%;
+        margin: 2px 0px;
+        border: 2px double #bd005e;
+    }
 }
