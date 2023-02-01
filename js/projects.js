@@ -3,13 +3,13 @@ var projects = ()=>
     const projects = [
         {
             title:'Encriptador',
-            image:'./img/projects/alura-encriptador.PNG',
+            image:'./img/projects/alura-encriptador.png',
             imageAlt:'encriptador',
             imageHerf:'https://yammi08.github.io/Alura-Challenge/'
         },
         {
             title:'Ahorcado',
-            image:'./img/projects/alura-ahorcado.PNG',
+            image:'./img/projects/alura-ahorcado.png',
             imageAlt:'ahorcado',
             imageHerf:'https://yammi08.github.io/Ahorcado/'
         },
