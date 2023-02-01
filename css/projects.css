@@ -5,8 +5,19 @@
 .title__project
 {
     
+    text-align: center;
 }
-.image__project
+.container__title
+{
+    position: absolute;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+
+}
+.image__project,.container__title
 {
     width: 300px;
 }
