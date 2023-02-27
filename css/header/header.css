@@ -1,0 +1,28 @@
+.header
+{
+    background-color: #f6007c;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    box-shadow: 2px 5px 2px rgba(255, 255, 255, 0.1);
+    border-bottom: 4px;
+    border-style: groove;
+    border-color: #f6007c;
+}
+.header__post-content
+{
+    color: azure;
+}
+@media only screen and (max-width: 600px){
+    .header
+    {
+        height: auto;
+        justify-content: space-evenly;
+    }
+    .header
+    {
+        flex-direction: column;
+        /*display: none;*/
+    }
+}

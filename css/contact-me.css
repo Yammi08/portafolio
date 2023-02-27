@@ -11,12 +11,22 @@
 {
     background: url('../img/contact-me/email.png');
 }
+
 .icon
 {
     display: inline-block;
     width: 100px;
     height: 100px;
-    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.icon__linkedin
+{
+    background: url('../img/contact-me/LI-In-Bug.png');
+    display: inline-block;
+    width: 120px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;

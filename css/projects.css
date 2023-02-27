@@ -1,12 +1,23 @@
+.container__projects
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 .container__project
 {
     display: inline-block;
+    margin: 5px;
 }
 .title__project
 {
     
     text-align: center;
 }
+.link__project
+{
+    transition: color 0.1s;
+}
+
 .container__title
 {
     position: absolute;
@@ -20,4 +31,16 @@
 .image__project,.container__title
 {
     width: 300px;
+}
+
+@media only screen and (max-width: 816px){
+    .image__project
+    {
+        width: 100%
+    }
+    .container__title
+    {
+        position: relative;
+        width: 100%;
+    }
 }

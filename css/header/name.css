@@ -1,0 +1,22 @@
+.container__name 
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header__name
+{
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+    
+}
+.container__name-div
+{
+    width: 15rem;
+}
+@media only screen and (max-width: 600px){
+    .header__name
+    {
+        font-size: xx-large;
+    }
+}

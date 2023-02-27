@@ -1,0 +1,52 @@
+.container__information
+{
+    display: flex;
+}
+.container__information-div, .container__information
+{
+    height: 100%;
+}
+.container__header__link
+{
+    margin: 0px 2px;
+}
+.about-me-tag
+{
+    font-weight: bolder;
+}
+.header__button
+{
+    padding: 0px 10px;
+    border: 2px solid #f6007c;
+    border-radius: 5px;
+    height: 100%;
+    line-height: 2.3;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header__button:hover
+{
+    border-color: azure;
+    color: rgba(240, 255, 255, 0.7)
+}
+@media only screen and (max-width: 600px)
+{
+    .header__button
+    {
+        width: 100%;
+        margin: 2px 0px;
+        border: 2px double #bd005e;
+    }
+    .container__information
+    {
+        flex-direction: column;
+    }
+    .container__information-div
+    {
+        width: 100%;
+    }
+    .container__information
+    {
+        display: flex;
+    }
+}
