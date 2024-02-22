@@ -1,29 +1,44 @@
 
-.icon__twitter
-{
-    background: url('../img/contact-me/icons8-twitter-120.png');
-}
-.icon__github
-{
-    background: url('../img/contact-me/github-mark.png');
-}
-.icon__gmail
-{
-    background: url('../img/contact-me/email.png');
-}
 
 .icon
 {
     display: inline-block;
     width: 100px;
     height: 100px;
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+
+    background-color: rgb(255, 255, 255);
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
 }
+
+.icon__twitter
+{
+    --svg: url('../img/contact-me/icons8-twitter-120.png');
+    
+}
+.icon__github
+{
+    --svg: url('../img/contact-me/github-mark.png');
+    mask-size: 95% 95%;
+}
+.icon__gmail
+{
+    --svg: url('../img/contact-me/email.png');
+    mask-size: 155% 155%;
+    mask-position: -26px;
+}
+
 .icon__linkedin
 {
-    background: url('../img/contact-me/LI-In-Bug.png');
+    --svg: url('../img/contact-me/LI-In-Bug.png');
+    background-color: rgb(40, 103, 178);
+    mask-size: 95% 95%;
+
     display: inline-block;
     width: 120px;
     height: 100px;
