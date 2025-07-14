@@ -1,21 +1,46 @@
-body
-{
-    background-color: rgba(22,22,25,1);
+body {
+    background-color: black
+        /*rgba(22,22,25,1);*/
 
 }
-a
-{
+
+.background {
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(rgb(0,0,0) 60%, rgb(148, 148, 148) 90% );
+    mask-image: url('../img/background.webp');
+  background-position: center;
+    z-index: -1;
+    animation: slide 300s linear infinite;
+    background-size: 90%;
+    mask-size: 60%;
+}
+main{
+    display: flex;
+}
+@keyframes slide {
+    from {
+
+        mask-position: 0vw 0vh;
+    }
+
+    to {
+        mask-position: 100vw 100vh;
+    }
+}
+
+a {
     text-decoration: none;
 }
-.post__content
-{
+
+.post__content {
     color: white;
 }
-a:-webkit-any-link 
-{
+
+a:-webkit-any-link {
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-
-

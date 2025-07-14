@@ -1,13 +1,15 @@
 .container__main
 {
-    background-color: rgba(58, 58, 58, 0.4);
+    background-color: rgb(51, 51, 54);
+
     color: azure;
-    width: 80%;
+    width: 95%;
     margin: 50px auto;
     padding: 10px;
     font-family: sans-serif;
     line-height: 1.2;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 .main__title
 {
@@ -18,6 +20,7 @@
 .main__split
 {
     border-image: linear-gradient(to right,rgba(240, 255, 255, 0.1) ,rgba(240, 255, 255, 0.3) ,rgba(240, 255, 255, 0.3), rgba(240, 255, 255, 0.1)) 1;
+
 }
 @media only screen and (max-width: 600px){
     .container__main
