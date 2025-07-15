@@ -8,29 +8,68 @@
     display: inline-block;
     margin: 5px;
 }
-.title__project
-{
-    
-    text-align: center;
-}
+
 .link__project
 {
     transition: color 0.1s;
 }
-
-.container__title
+.title__project
 {
     position: absolute;
+    width: 300px;
     height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.container__title
+{
+    
+    position: relative;
+    height: 20px;
+    top: 20px;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     color: aliceblue;
-
+    padding: 1px;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.1s;
 }
 .image__project,.container__title
 {
     width: 300px;
+}
+
+.image__project
+{
+    border-radius: 10px;
+}
+
+.desciption__project
+{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.container__description
+{
+    position: relative;
+    top: -54.2px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    /*box-sizing: border-box;*/
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.1s;
 }
 
 @media only screen and (max-width: 816px){
@@ -43,4 +82,30 @@
         position: relative;
         width: 100%;
     }
+}
+/*
+.container__description:hover ,.image__project:hover
+{
+    cursor:pointer;
+    transform: scaleY(1);
+    /*.container__description
+    {
+        transform: scaleY(1);
+    }
+}
+*/
+.image__project:hover
+{
+    cursor:pointer;
+}
+.link__project:has(.container__title:hover) .container__description,
+.link__project:has(.container__title:hover) .container__title,
+.link__project:has(.image__project:hover) .container__description,
+.link__project:has(.image__project:hover) .container__title,
+.link__project:has(.container__description:hover) .container__description,
+.link__project:has(.container__description:hover) .container__title
+
+{
+    cursor:pointer;
+    transform: scaleY(1);
 }

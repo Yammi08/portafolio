@@ -6,39 +6,53 @@ var projects = ()=>
             title:'Encriptador',
             image:'./img/projects/alura-encriptador.png',
             imageAlt:'encriptador',
-            imageHerf:'https://yammi08.github.io/Alura-Challenge/'
+            imageHerf:'https://yammi08.github.io/Alura-Challenge/',
+            description:'es una descripcion del proyecto encriptador'
         },
         {
             title:'Ahorcado',
             image:'./img/projects/alura-ahorcado.png',
             imageAlt:'ahorcado',
-            imageHerf:'https://yammi08.github.io/Ahorcado/'
+            imageHerf:'https://yammi08.github.io/Ahorcado/',
+            description:'es una descripcion del proyecto ahoracado'
         },
         {
             title:'Slime run',
             image:'./img/projects/run-slime.png',
             imageAlt:'slime',
-            imageHerf:'https://github.com/Yammi08/SlimeRun'
+            imageHerf:'https://github.com/Yammi08/SlimeRun',
+            description:'es una descripcion del proyecto slime run'
         },
         {
             title:'Generador de habitaciones',
             image:'./img/projects/generate-rooms.png',
             imageAlt:'generate',
-            imageHerf:'https://github.com/Yammi08/RandomGenerate'
+            imageHerf:'https://github.com/Yammi08/RandomGenerate',
+            description:'es una descripcion del proyecto generador de habitaciones'
         }
 
     ];
-    const project = ({title,imageHerf,image,imageAlt})=>
+    const project = ({title,imageHerf,image,imageAlt,description})=>
     {
         console.log(title);
             return`
             <div class="container__project">
-            <a href= ${imageHerf} class="link__project">
+            
+            <div href= ${imageHerf} class="link__project">
+                
                 <div class="container__title">
                     <h3 class="title__project">${title}</h3>
                 </div>
                 <img src= ${image} alt=${imageAlt} class="image__project">
-            </a>
+                <div class="container__description">
+                    <h3 class="desciption__project">${description}</h3>
+                </div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
             </div>`;
     }
     let items = '';

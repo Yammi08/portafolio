@@ -9,5 +9,5 @@ var header = async ()=>
     let headerContainer = document.querySelector('header');
     headerContainer.innerHTML = req;
 };
-header();
+//header();
 //create('articles-section','Esto es un articulo','/img/encrypt.png','imagen','','Esto es una min descripcion dsasdaasd dsa s d a a d s a sddas');
