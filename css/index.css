@@ -1,7 +1,5 @@
 body {
     background-color: black
-        /*rgba(22,22,25,1);*/
-
 }
 
 .background {
@@ -14,7 +12,6 @@ body {
   background-position: center;
     z-index: -1;
     animation: slide 300s linear infinite;
-    background-size: 90%;
     mask-size: 60%;
 }
 main{
@@ -31,16 +28,9 @@ main{
     }
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .post__content {
     color: white;
 }
 
-a:-webkit-any-link {
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}
