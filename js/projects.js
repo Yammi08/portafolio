@@ -29,12 +29,25 @@ var projects = ()=>
             imageAlt:'generate',
             imageHerf:'https://github.com/Yammi08/RandomGenerate',
             description:'es una descripcion del proyecto generador de habitaciones'
+        },
+        {
+            title:'mensajeria instantanea',
+            image:'./img/projects/mensajeria.webp',
+            imageAlt:'Message',
+            imageHerf:'https://github.com/Yammi08/RandomGenerate',
+            description:'es una descripcion del proyecto generador de habitaciones'
+        },
+        {
+            title:'you2be',
+            image:'./img/projects/you2be.webp',
+            imageAlt:'generate',
+            imageHerf:'https://github.com/Yammi08/you2be',
+            description:'es una descripcion del proyecto you2be'
         }
 
     ];
     const project = ({title,imageHerf,image,imageAlt,description})=>
     {
-        console.log(title);
             return`
             <div class="container__project">
             

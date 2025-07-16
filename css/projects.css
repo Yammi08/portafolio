@@ -87,19 +87,18 @@
 }
 .container__project:has(.link__project:hover) .image__project
 {
-cursor:pointer;
     border: 1px solid #f6007c;
     box-shadow: 0 0 25px #f6007c;
 }
 
-
 .container__project:has(.link__project:hover) .container__title,
 .container__project:has(.link__project:hover) .container__description
 {
-    
+    border: 1px solid #f6007c;
     transform: scaleY(1);
     
 }
+
 .container__project:has(.link__project:hover) .selection__bar
 {
     visibility:visible;
