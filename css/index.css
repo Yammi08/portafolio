@@ -14,7 +14,7 @@ body {
     animation: slide 300s linear infinite;
     mask-size: 60%;
 }
-main{
+.container{
     display: flex;
 }
 @keyframes slide {

@@ -10,6 +10,7 @@
     line-height: 1.2;
     box-sizing: border-box;
     border-radius: 15px;
+    box-shadow: 7px 7px 10px rgba(255, 255, 255, 0.15);
 }
 .main__title
 {
@@ -19,7 +20,11 @@
 }
 .main__split
 {
-    border-image: linear-gradient(to right,rgba(240, 255, 255, 0.1) ,rgba(240, 255, 255, 0.3) ,rgba(240, 255, 255, 0.3), rgba(240, 255, 255, 0.1)) 1;
+    border-color: #f6007c;
+    box-shadow: 5px 5px 15px #f6007c,
+    -5px -5px 15px #f6007c,
+    5px 0px 15px #f6007c,
+    0px 5px 15px #f6007c;
 
 }
 @media only screen and (max-width: 600px){

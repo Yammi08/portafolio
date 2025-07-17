@@ -1,13 +1,21 @@
 .container__data__about-me
 {
-    display: flex;
+    display: inline-block;
     margin: 10px 0px;
 }
 .about-me
 {
-    flex: 1.1;
+    flex: 0.7;
     justify-items: right;
     margin-top: 60px;
+}
+.item__about-me
+{
+    display: inline;
+}
+.about-me-tag
+{
+    font-weight:bolder;
 }
 .container-page
 {

@@ -88,7 +88,8 @@
 .container__project:has(.link__project:hover) .image__project
 {
     border: 1px solid #f6007c;
-    box-shadow: 0 0 25px #f6007c;
+    box-shadow: 0 0 25px #f6007c,
+    0 0 30px #f6007c;
 }
 
 .container__project:has(.link__project:hover) .container__title,
@@ -99,19 +100,23 @@
     
 }
 
-.container__project:has(.link__project:hover) .selection__bar
+.container__project:has(.link__project:hover) .hidden__bar
 {
     visibility:visible;
 }
 .selection__bar
 {  
-        visibility: hidden;
+        
         overflow: hidden;
         height: 225px;
         width: 100%;
         border-radius: 10px;
         position: absolute;
         top: 0;
+}
+.hidden__bar
+{
+    visibility: hidden;
 }
 .selection__bar span
 {

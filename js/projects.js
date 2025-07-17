@@ -46,6 +46,7 @@ var projects = ()=>
         }
 
     ];
+    
     const project = ({title,imageHerf,image,imageAlt,description})=>
     {
             return`
@@ -60,7 +61,7 @@ var projects = ()=>
                 <div class="container__description">
                     <h3 class="desciption__project">${description}</h3>
                 </div>
-                <div class="selection__bar">
+                <div class="selection__bar hidden__bar">
                 <span></span>
                 <span></span>
                 <span></span>
