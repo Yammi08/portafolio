@@ -1,0 +1,15 @@
+.container__welcome
+{
+
+    background: rgb(51,51,54);
+    height: 75px;
+    margin: 20px auto 10px auto !important;
+    box-sizing:content-box !important;
+}
+.welcome
+{
+    font-size: 64px;
+    font-family: 'Lobster', cursive;
+    color: azure;
+    text-align: center;
+}

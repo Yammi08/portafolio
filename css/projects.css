@@ -1,8 +1,8 @@
 .container__projects
 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
 }
 .container__project
 {
@@ -14,40 +14,48 @@
 {
     transition: color 0.1s;
     position: relative;
-    height: 225px;
-    width: 300px;
     display: inline-block;
 }
 .title__project
 {
-    position: absolute;
-    width: 300px;
+
+    max-width: 500px;
     height: 20px;
     box-sizing: border-box;
     text-align: center;
+    margin: auto;
     
+    text-transform: capitalize;
 }
 .container__title,.container__description
 {
+
+    text-align: center;
+    padding-top: 2%;
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,0.95);
     color: aliceblue;
     transform: scaleY(0);
+    justify-items: center;
     transition: transform 0.1s;
+    font-size: large;
 }
 .container__title
 {
     
+    font-size: larger;
+    height: 35px;
     
-    height: 20px;
     top: 0px;
     border-radius: 10px 10px 0px 0px;
+    font-weight: bolder;
     transform-origin: top;
 }
 .container__description
 {
     bottom:0px;
-    height: 40px;
+    height: 60px;
+    
     border-radius: 0px 0px 10px 10px;
     transform-origin: bottom;
     
@@ -70,6 +78,7 @@
     width: 300px;
     height: 40px;
     box-sizing: border-box;
+    margin: auto;
 }
 
 
@@ -108,7 +117,7 @@
 {  
         
         overflow: hidden;
-        height: 225px;
+        height: 100%;
         width: 100%;
         border-radius: 10px;
         position: absolute;
@@ -116,6 +125,7 @@
 }
 .hidden__bar
 {
+
     visibility: hidden;
 }
 .selection__bar span

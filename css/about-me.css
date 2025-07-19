@@ -1,24 +1,28 @@
-.container__data__about-me
-{
+.container__data__about-me {
     display: inline-block;
     margin: 10px 0px;
 }
-.about-me
-{
+
+.about-me {
     flex: 0.7;
     justify-items: right;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    flex-wrap: wrap;
 }
-.item__about-me
-{
-    display: inline;
+
+.about-me-description {
+    display: block;
+    margin: 0px 0px 5px 0px;
 }
-.about-me-tag
-{
-    font-weight:bolder;
+
+.about-me-tag {
+    font-weight: bolder;
 }
-.container-page
-{
+
+.container-page {
     flex: 4;
     display: flex;
     justify-content: center;
@@ -26,9 +30,9 @@
     flex-wrap: wrap;
     align-content: space-around;
 }
-@media only screen and (max-width: 600px){
-    .container__data__about-me
-    {
+
+@media only screen and (max-width: 600px) {
+    .container__data__about-me {
         flex-direction: column;
     }
 }
