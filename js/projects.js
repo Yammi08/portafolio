@@ -7,13 +7,15 @@ var projects = ()=>
             image:'./img/projects/alura-encriptador.webp',
             imageAlt:'encriptador',
             imageHerf:'https://yammi08.github.io/Alura-Challenge/',
-            description:'es una descripcion del proyecto encriptador'
+            tags:['javascript','css','html'],
+            description:'encriptador de vocales cambiandolas por una palabra'
         },
         {
             title:'Ahorcado',
             image:'./img/projects/alura-ahorcado.webp',
             imageAlt:'ahorcado',
             imageHerf:'https://yammi08.github.io/Ahorcado/',
+            tags:['javascript','css','html'],
             description:'es una descripcion del proyecto ahoracado'
         },
         {
@@ -21,6 +23,7 @@ var projects = ()=>
             image:'./img/projects/run-slime.webp',
             imageAlt:'slime',
             imageHerf:'https://github.com/Yammi08/SlimeRun',
+            tags:['c#','monogame'],
             description:'es una descripcion del proyecto slime run'
         },
         {
@@ -28,6 +31,7 @@ var projects = ()=>
             image:'./img/projects/generate-rooms.webp',
             imageAlt:'generate',
             imageHerf:'https://github.com/Yammi08/RandomGenerate',
+            tags:['godot'],
             description:'es una descripcion del proyecto generador de habitaciones'
         },
         {
@@ -35,6 +39,7 @@ var projects = ()=>
             image:'./img/projects/mensajeria.webp',
             imageAlt:'Message',
             imageHerf:'https://github.com/Yammi08/RandomGenerate',
+            tags:['nodejs','javascript','css','mysql','ejs'],
             description:'es una descripcion del proyecto generador de habitaciones'
         },
         {
@@ -42,6 +47,7 @@ var projects = ()=>
             image:'./img/projects/you2be.webp',
             imageAlt:'generate',
             imageHerf:'https://github.com/Yammi08/you2be',
+            tags:['javascript','css','ejs','mongodb'],
             description:'es una descripcion del proyecto you2be'
         }
 
@@ -78,5 +84,9 @@ var projects = ()=>
     });
     const contentProjects = document.querySelector('.container__projects');
     contentProjects.innerHTML = items;
+function orderBy(type){
+
+}
 }
 projects();
+

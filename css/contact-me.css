@@ -1,10 +1,22 @@
-
+.contact
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.icon__gmail
+{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ;
+}
 
 .icon
 {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
     background-repeat: no-repeat;
@@ -14,34 +26,31 @@
     background-color: rgb(255, 255, 255);
     -webkit-mask-image: var(--svg);
     mask-image: var(--svg);
+    transition: transform 0.2s ;
 }
-
+.icon:hover, .icon__gmail:hover
+{
+    transform: scale(1.2);
+}
 .icon__twitter
 {
-    --svg: url('../img/contact-me/icons8-twitter-120.png');
+    --svg: url('../img/contact-me/logo.svg');
     
 }
 .icon__github
 {
     --svg: url('../img/contact-me/github-mark.png');
-    mask-size: 95% 95%;
 }
-.icon__gmail
-{
-    --svg: url('../img/contact-me/email.png');
-    mask-size: 155% 155%;
-    mask-position: -26px;
-}
+
 
 .icon__linkedin
 {
     --svg: url('../img/contact-me/LI-In-Bug.png');
     background-color: rgb(40, 103, 178);
-    mask-size: 95% 95%;
 
     display: inline-block;
-    width: 120px;
-    height: 100px;
+    width: 50px;
+    height: 40px;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
