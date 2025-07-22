@@ -16,7 +16,7 @@ var projects = ()=>
             imageAlt:'ahorcado',
             imageHerf:'https://yammi08.github.io/Ahorcado/',
             tags:['javascript','css','html'],
-            description:'es una descripcion del proyecto ahoracado'
+            description:'videojuego basico creado con html,css y javascript de ahorcado'
         },
         {
             title:'Slime run',
@@ -24,7 +24,7 @@ var projects = ()=>
             imageAlt:'slime',
             imageHerf:'https://github.com/Yammi08/SlimeRun',
             tags:['c#','monogame'],
-            description:'es una descripcion del proyecto slime run'
+            description:'es un videojuego que usa el framework monogame, uso como aprendizaje'
         },
         {
             title:'Generador de habitaciones',
@@ -32,7 +32,7 @@ var projects = ()=>
             imageAlt:'generate',
             imageHerf:'https://github.com/Yammi08/RandomGenerate',
             tags:['godot'],
-            description:'es una descripcion del proyecto generador de habitaciones'
+            description:'genera habitaciones de forma aleatoria usando una semilla preestablecida'
         },
         {
             title:'mensajeria instantanea',
@@ -40,7 +40,7 @@ var projects = ()=>
             imageAlt:'Message',
             imageHerf:'https://github.com/Yammi08/RandomGenerate',
             tags:['nodejs','javascript','css','mysql','ejs'],
-            description:'es una descripcion del proyecto generador de habitaciones'
+            description:'app de mensajeria con uso de cookies para el inicio de sesion'
         },
         {
             title:'you2be',
@@ -48,7 +48,7 @@ var projects = ()=>
             imageAlt:'generate',
             imageHerf:'https://github.com/Yammi08/you2be',
             tags:['javascript','css','ejs','mongodb'],
-            description:'es una descripcion del proyecto you2be'
+            description:'aplicacion para la publicacion de contenido multimedia'
         }
 
     ];
