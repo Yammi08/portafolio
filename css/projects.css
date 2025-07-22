@@ -55,7 +55,7 @@
 
 .container__description {
     bottom: 0px;
-    height: 60px;
+    height: 70px;
 
     border-radius: 0px 0px 10px 10px;
     transform-origin: bottom;
@@ -204,7 +204,9 @@
     .container__projects {
         grid-template-columns: repeat(3, 1fr);
     }
-
+    .container__description{
+        height: 90px;
+    } 
     .container__title,
     .container__description {
         transform: scale(1);
@@ -220,7 +222,6 @@
     }
 
     .container__title {
-        position: relative;
         width: 100%;
     }
     .container__projects {
